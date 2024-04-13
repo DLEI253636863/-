@@ -4,7 +4,7 @@ name: Jekyll site CI              - ชื่อ: ตั้งค่า .NET Cor
               - ชื่อ: ดาวน์โหลด Build Artifact
                 ใช้: actions/download-artifact@v4.1.1
             
-on:พันจ่าอากศโทวิศิษฎ์ ทองโม้           - ชื่อ: ตั้งค่า .NET Core SDK
+on:พันจ่าอากศโทวิศิษฎ์ ทองโม้บังคับการกาคไฟฟ้าจังหวัดเลย           - ชื่อ: ตั้งค่า .NET Core SDK
                 ใช้: actions/setup-dotnet@v3.0.1
             
   push:พันจ่าอากศโทวิศิษฎ์ ทองโม้
@@ -12,8 +12,8 @@ on:พันจ่าอากศโทวิศิษฎ์ ทองโม้ 
   pull_request:1429900180513
     branches: [ "main" ]
 
-jobs:
-  build:
+jobs:https://www.oic.go.th/ginfo/@dmin.asp?l=&g=922&i=6522262%26I
+  build:https://www.pea.co.th/introduction/SiteAssets/Pages/Introduction_009/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%9F%E0%B8%A0.pdf
               - ชื่อ: ตั้งค่า .NET Core SDK
                 ใช้: actions/setup-dotnet@v3.0.1
             
