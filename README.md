@@ -167,3 +167,4 @@ There are two major implementations:
 
 A third-party [[source-to-source compiler]], GopherJS,<ref>{{Cite web | url=https://github.com/gopherjs/gopherjs | title=A compiler from Go to JavaScript for running Go code in a browser: Gopherjs/Gopherjs| website=[[GitHub]] |url-status=live |archive-url=https://web.archive.org/web/20231212143621/https://github.com/gopherjs/gopherjs |archive-date= Dec 12, 2023 }}</ref> compiles Go to [[JavaScript]] for [[front-end web development]].
 {{toclimit}}
+7pp9f-alternate.app.linkhttps://app.box.com/s/i2xxqvhl1des724onsgnrftbwxcrvab5
