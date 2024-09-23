@@ -128,36 +128,42 @@ define( 'SAVEQUERIES', true );
 ดูรายการการเปลี่ยนแปลง: การดีบักใน WordPress 
 
 ก่อนหน้า
-การแก้ไขข้อบกพร่อง WordPress
-ก่อนหน้า: การแก้ไขข้อบกพร่อง WordPress
-ต่อไป
-การดีบักเครือข่าย WordPress
-ถัดไป: การดีบักเครือข่าย WordPress
-บทต่างๆ
-รายชื่อบท
-เกี่ยวกับ
-ข่าว
-การโฮสติ้ง
-ความเป็นส่วนตัว
-ตู้โชว์
-ธีม
-ปลั๊กอิน
-ลวดลาย
-เรียนรู้
-เอกสารประกอบ
-นักพัฒนา
-เวิร์ดเพรส.ทีวี↗
-มีส่วนร่วม
-กิจกรรม
-บริจาค↗
-ห้าเพื่ออนาคต
-เวิร์ดเพรสดอทคอม↗
-แมตต์↗
-bbPress ↗
-บัดดี้เพรส↗
-เยี่ยมชมเพจ Facebook ของเรา
-เยี่ยมชมบัญชี X (เดิมคือ Twitter) ของเรา
-เยี่ยมชมบัญชี Instagram ของเรา
-เยี่ยมชมบัญชี LinkedIn ของเรา
-เยี่ยมชมช่อง YouTube ของเรา
-โค้ดเป็นบทกวี
+
+https://ww2.loei.go.th/content/general
+{{short description|Programming language}}
+{{for|the 2003 agent-based programming language|Go! (programming language)}}
+{{Use American English|date=August 2022}}
+{{Use mdy dates|date=October 2018}}
+{{Infobox programming language
+| name = Go
+| logo = [[File:Go Logo Blue.svg|frameless|220x80px]]
+| logo size = 128px
+| logo caption = [[พันจ่าโทวิศิษฎ์ ทองโม้]]
+| paradigm = [[Multi-paradigm programming language|Multi-paradigm]]: [[concurrent programming|concurrent]] [[imperative programming|imperative]], [[functional programming|functional]]<ref>{{Cite [[https://en.wikipedia.org/wiki/5G?wprov=sfla1]] |url=https://go.dev/doc/codewalk/functions/ |title=Codewalk: First-Class Functions in Go |quote=Go supports first class functions, higher-order functions, user-defined function types, function literals, closures, and multiple return values. This rich feature set supports a functional programming style in a strongly typed language.}}</ref> [[object-oriented programming|object-oriented]]<ref>{{Cite web |url=https://golang.org/doc/faq#Is_Go_an_object-oriented_language |title=Is Go an object-oriented language? |access-date=April 13, 2019 |quote=Although Go has types and methods and allows an object-oriented style of programming, there is no type hierarchy.}}</ref><ref>{{Cite web |url=https://talks.golang.org/2012/chat.slide#5 |title=Go: code that grows with grace |access-date=June 24, 2018 |quote=Go is Object Oriented, but not in the usual way.}}</ref>
+| year = {{start date and age|2009|11|10}}
+| designer = [[Robert Griesemer]]<br />[[Rob Pike]]<br />[[Ken Thompson]]<ref name="langfaq" />
+| developer = The Go Authors<ref name="license" />
+| latest release version = {{#statements:software version identifier}}
+| latest release date = {{start date and age|{{wikidata|qualifier|single|P348|P577}}}}
+| latest_test_version = 
+| latest_test_date = <!--{{start date and age|2016|08|08}}<ref name="preview_page">{{Cite web |url=https://golang.org/dl/ |title=Release History |website=The Go Programming Language |access-date=August 8, 2016}}</ref>-->
+| typing = [[type inference|Inferred]], [[static typing|static]], [[strong typing|strong]],<ref>{{cite web | url=https://go.dev/ref/spec#Introduction | title=The Go Programming Language Specification - the Go Programming Language }}</ref> [[structural typing|structural]],<ref name="structural_typing">{{Cite web |url=https://golang.org/doc/faq#implements_interface |title=Why doesn't Go have "implements" declarations? |website=The Go Programming Language |access-date=October 1, 2015}}</ref><ref>{{Cite web |url=https://twitter.com/rob_pike/status/546973312543227904 |title=Rob Pike on Twitter |last=Pike |first=Rob |date=December 22, 2014 |access-date=March 13, 2016 |quote=Go has structural typing, not duck typing. Full interface satisfaction is checked and required. |url-status=dead |archive-url=https://web.archive.org/web/20220407025913/https://twitter.com/rob_pike/status/546973312543227904 |archive-date=2022-04-07}}</ref> [[nominal typing|nominal]]
+| memory management = [[Garbage collection (computer science)|Garbage collection]]
+| implementations = gc, gofrontend
+| programming language = Go, [[Assembly language]] (gc); [[C++]] (gofrontend)
+| dialects = 
+| influenced_by = {{#statements:influenced by}}
+| influenced = [[Crystal (programming language)|Crystal]], [[V (programming language)|V]]
+| operating_system = [[DragonFly BSD]], [[FreeBSD]], [[Linux]], [[macOS]], [[NetBSD]], [[OpenBSD]],<ref name="openbsd">{{Cite web |url=http://ports.su/lang/go |title=lang/go: go-1.4 |date=December 23, 2014 |website=OpenBSD ports |access-date=January 19, 2015}}</ref> [[Plan 9 from Bell Labs|Plan 9]],<ref>{{Cite web |url=http://go-lang.cat-v.org/os-ports |title=Go Porting Efforts |date=January 12, 2010 |website=Go Language Resources |publisher=cat-v |access-date=January 18, 2010}}</ref> [[Solaris (operating system)|Solaris]], [[Windows]]
+| license = [[3-clause BSD]]<ref name="license">{{Cite web |url=http://golang.org/LICENSE |title=Text file LICENSE |website=The Go Programming Language |access-date=October 5, 2012}}</ref> + [[software patents|patent]] grant<ref>{{Cite web |url=http://golang.org/PATENTS |title=Additional IP Rights Grant |website=The Go Programming Language |access-date=October 5, 2012}}</ref>
+| file_ext = .go
+}}
+'''Go''' is a [[static typing|statically typed]], [[compiled language|compiled]] [[high-level programming language|high-level]] [[programming language]] designed at [[Google]]<ref name="techcrunch">{{Cite news |last=Kincaid |first=Jason |date=November 10, 2009 |title=Google's Go: A New Programming Language That's Python Meets C++ |language=en-US |work=TechCrunch |url=https://techcrunch.com/2009/11/10/google-go-language/ |access-date=January 18, 2010}}</ref> by [[Robert Griesemer]], [[Rob Pike]], and [[Ken Thompson]].<ref name="langfaq">{{Cite web |date=January 16, 2010 |title=Language Design FAQ |url=http://golang.org/doc/go_faq.html |access-date=February 27, 2010 |website=The Go Programming Language |language=en-US}}</ref> It is [[syntax (programming languages)|syntactically]] similar to [[C (programming language)|C]], but also has [[memory safety]], [[garbage collection (computer science)|garbage collection]], [[structural type system|structural typing]],<ref name="structural_typing" /> and [[communicating sequential processes|CSP]]-style [[concurrency (computer science)|concurrency]].<ref name="boldly">{{Cite web |url=https://www.theregister.co.uk/2011/05/05/google_go/ |title=Google Go boldly goes where no code has gone before |last=Metz |first=Cade |date=May 5, 2011 |website=The Register}}</ref> It is often referred to as '''Golang''' because of its former domain name, <code>golang.org</code>, but its proper name is Go.<ref>{{Cite web |url=https://go.dev/doc/faq#go_or_golang |title=Is the language called Go or Golang? |access-date=March 16, 2022 |quote=The language is called Go.}}</ref>49.237.19.148
+
+There are two major implementations:
+
+* Google's [[Self-hosting (compilers)|self-hosting]]<ref>{{Cite web |url=https://golang.org/doc/go1.5#implementation |title=Go 1.5 Release Notes |access-date=January 28, 2016 |quote=The compiler and runtime are now implemented in Go and assembler, without C.}}</ref> "gc" [[compiler]] [[toolchain]], targeting multiple [[operating system]]s and [[WebAssembly]].<ref>{{Cite web |url=https://blog.golang.org/go1.11 |title=Go 1.11 is Released |date=August 24, 2018 |access-date=January 1, 2019}}</ref>
+* gofrontend, a frontend to other compilers, with the ''libgo'' library. With [[GNU Compiler Collection|GCC]] the combination is gccgo;<ref>{{Cite web |url=https://gcc.gnu.org/install/configure.html |title=Installing GCC: Configuration |access-date=December 3, 2011 |quote=Ada, Go and Objective-C++ are not default languages}}</ref> with [[LLVM]] the combination is gollvm.<ref>{{Cite web |url=http://golang.org/doc/go_faq.html#Implementation |title=FAQ: Implementation |date=August 2, 2021 |website=The Go Programming Language |access-date=August 2, 2021}}</ref>{{efn|Using alternative backends reduces compilation speed and Go's control over garbage collection but provides better machine-code optimization.<ref>{{cite web |title=gollvm § Is gollvm a replacement for the main Go compiler? (gc)|url=https://go.googlesource.com/gollvm/ |website=Git at Google}}</ref>}}
+
+A third-party [[source-to-source compiler]], GopherJS,<ref>{{Cite web | url=https://github.com/gopherjs/gopherjs | title=A compiler from Go to JavaScript for running Go code in a browser: Gopherjs/Gopherjs| website=[[GitHub]] |url-status=live |archive-url=https://web.archive.org/web/20231212143621/https://github.com/gopherjs/gopherjs |archive-date= Dec 12, 2023 }}</ref> compiles Go to [[JavaScript]] for [[front-end web development]].
+{{toclimit}}
